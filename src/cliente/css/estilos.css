@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(34, 34, 34);
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+
+header{
+    background-image: url(../../../dist/background.jpg);
+    width: 100%;
+    height: 670px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+header .titulo{
+    font-family: 'Verdana';
+    font-size: 90px;
+    text-align: center;
+    color: white;
+}
+
+header .opciones{
+    font-family: 'Segoe UI';
+    font-size: 15px;
+    text-align: center;
+}
+
+.opciones ul{
+    border: 2px solid white;
+}
+
+.opciones ul li{
+    padding: 10px;
+    display: inline-block;
+}
+
+.opciones ul li:hover{
+    background-color: rgb(164, 67, 255);
+    transition: 1.5s;
+}
+
+.opciones ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.create{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    justify-content: center;
+}
+
+.create h2{
+    color: rgb(150, 40, 253);
+    padding-top: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 45px;
+}
+
+.create form{
+    width: 20%;
+    height: auto;
+    padding: 20px;
+    margin: auto;
+}
+
+@media screen and (max-width:700px){
+	.create form {
+		width: 70%;;
+	} 
+}
+
+.create form ul{
+    list-style: none;
+}
+
+.create form ul li{
+    margin: 10px;
+}
+
+.create form ul li input{
+    width: 94%;
+    border: 2px solid black;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.create form ul li p{
+    font-family: sans-serif;
+    color: rgb(119, 119, 119);
+    margin-bottom: 6px;
+}
+
+.create form ul li select{
+    border: 2px solid black;
+
+    padding: 10px;
+    font-family: sans-serif;
+    color: rgb(119, 119, 119);
+}
+
+.create form .boton{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    border: none;
+    font-family: sans-serif;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.read{
+    overflow: hidden;
+    width: 100%;
+    height: 900px;
+}
+
+.read h2{
+    color: rgb(150, 40, 253);
+    padding-top: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 45px;
+}
+
+.scroll{
+    overflow: scroll;
+}
+
+.leer{
+    margin: auto;
+    width: 80%;
+    height: 200px;
+    padding: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    border: 2px solid black;
+    overflow: scroll;
+}
+
+.leer thead tr{
+    padding: 10px;
+}
+
+.leer thead tr th{
+    padding: 10px;
+}
+
+.lecturas{
+    border: 2px solid black;
+    margin: auto;
+    width: 20%;
+    height: auto;
+}
+
+@media screen and (max-width:700px){
+	.lecturas {
+		width: 70%;;
+	} 
+}
+
+.lecturas .botones{
+    padding: 10px;
+    text-align: center;
+}
+
+.lecturas .botones input{
+    width: 97%;
+    height: auto;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    border: none;
+    padding: 8px;
+    margin: 5px;
+    cursor: pointer;
+}

@@ -45,7 +45,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
 
     <title>CRUD</title>
 </head>
@@ -55,7 +55,7 @@
     .container-editar{
         width: 100%;
         height: 635px;
-        background-image: url(../../dist/background.jpg);
+
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;

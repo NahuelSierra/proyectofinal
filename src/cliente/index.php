@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="container">
-        <header>
+        <main>
             <div class="header">
                 <div class="titulo">
                     CRUD
@@ -23,8 +23,8 @@
                     </ul>
                 </div>
             </div>
-        </header>
-        <main>
+        </main>
+        <main2>
             <div class="create" id="Create">
 
                 <h2>CREATE</h2>
@@ -253,7 +253,7 @@
                 </table>
             </div>
             </div>
-        </main>
+        </main2>
     </div>
 
     <script src="js/index.js"></script>

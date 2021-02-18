@@ -31,7 +31,7 @@
                 <h2>CREATE</h2>
                 <br><br>
 
-                <form action="guardar.php" method="POST">
+                <form action="https://proyectofinal-crud.herokuapp.com/guardar.php" method="POST">
                     <ul>
                         <li><input type="text" name="legajo"  placeholder="legajo" autofocus required></li>
                         <li><input type="text" name="nombreyapellido" placeholder="nombre y apellido" autofocus required></li>

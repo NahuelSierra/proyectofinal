@@ -20,15 +20,6 @@ module.exports={
     plugins:[
         new htmlWebpackPlugin({
             template:'src/cliente/index.php'
-        }),
-        new htmlWebpackPlugin({
-            template:'src/cliente/guardar.php'
-        }),
-        new htmlWebpackPlugin({
-            template:'src/cliente/editar.php'
-        }),
-        new htmlWebpackPlugin({
-            template:'src/cliente/borrar.php'
         })
     ]
 };

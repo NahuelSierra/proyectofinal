@@ -65,9 +65,6 @@ main .opciones{
     height: 800px;
     position: relative;
     justify-content: center;
-	-webkit-box-shadow: inset 0px -114px 119px -26px rgba(0,0,0,0.75);
--moz-box-shadow: inset 0px -114px 119px -26px rgba(0,0,0,0.75);
-box-shadow: inset 0px -114px 119px -26px rgba(0,0,0,0.75);
 }
 
 .create h2{

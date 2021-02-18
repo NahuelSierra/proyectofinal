@@ -5,7 +5,7 @@ var webpackConfig = require('./webpack.config');
 
 var app = express();
 
-app.set('port',(process.env.PORT || 8080));
+app.set('port',(process.env.PORT || 3306));
 app.use('/static',express.static('dist'));
 app.use(webpackDevMiddleware(webpack(webpackConfig)));
 

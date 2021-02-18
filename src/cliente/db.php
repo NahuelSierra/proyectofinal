@@ -3,7 +3,6 @@
         'sql10.freesqldatabase.com',
         'sql10393810',
         'f8jcezeVTS',
-        'sql10393810',
-        '3306'
+        'sql10393810'
     );
 ?>

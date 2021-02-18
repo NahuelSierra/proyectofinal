@@ -19,10 +19,7 @@ module.exports={
     },
     plugins:[
         new htmlWebpackPlugin({
-            template:'src/cliente/index.php',
-            template:'src/cliente/guardar.php',
-            template:'src/cliente/editar.php',
-            template:'src/cliente/borrar.php'
+            template:'src/cliente/index.php'
         })
     ]
 };

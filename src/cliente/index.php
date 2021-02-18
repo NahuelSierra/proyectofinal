@@ -256,7 +256,5 @@
             </div>
         </main2>
     </div>
-
-    <script src="js/index.js"></script>
 </body>
 </html>
